@@ -1,0 +1,508 @@
+/*
+ Theme Name:   A-Z Template
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       A-Z Web Solutions Ltd
+ Author URI:   http://www.azwebsolutions.co.nz
+ Template:     understrap
+ Version:      0.3.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    margin: 0;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 20px 0;
+    color: #ff7f00;
+    font-weight: 700;
+}
+h2 {
+    margin: 0 0 40px;
+    color: #ff7f00;
+    font-size: 30px;
+    line-height: 40px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+b, strong {
+    font-weight: 400;
+    color: #000000;
+}
+p {
+    margin-bottom: 8px;
+}
+a {
+    color: #ff7f00;
+}
+a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: #fe5900;
+}
+.btn-primary {
+    background-color: #fe5900;
+    border-color: #fe5900;
+}
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #ff7f00;
+    border-color: #ff7f00;
+}
+#top-section {
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: right;
+}
+#top-section ul li {
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+}
+#top-section ul li.ph {
+    margin-right: 20px;
+}
+#top-section ul li:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+}
+#top-section ul li.ph:before {
+    content: "\f095";
+}
+#top-section ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+#top-section ul li.email:before {
+    content: "\f0e0";
+}
+#header {
+    position: relative;
+}
+#header .logo-wrapper {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: -52px;
+}
+#header .custom-logo-link {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
+.main-menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-menu ul li {
+    position: relative;
+    text-align: center;
+    color: #ff7f00;
+    border-left: 1px solid #ff7f00;
+}
+.main-menu ul li a:before {
+    position: absolute;
+    top: 10px;
+    font-family: FontAwesome;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    color: #ff7f00;
+}
+.main-menu ul li.hm a:before {
+    content: "\f015";
+}
+.main-menu ul li.about a:before {
+    content: "\f0eb";
+}
+.main-menu ul li.services a:before {
+    content: "\f013";
+}
+.main-menu ul li.gallery a:before {
+    content: "\f03e";
+}
+.main-menu ul li.testimonials a:before {
+    content: "\f10d";
+}
+.main-menu ul li.contact a:before {
+    content: "\f0e0";
+}
+.main-menu ul li a {
+    text-transform: uppercase;
+    padding:40px 30px 10px;
+    display: block;
+}
+.main-menu ul li:hover a:before {
+    color: #ffffff;
+}
+.main-menu ul li:hover a {
+    color: #ffffff;
+}
+.main-menu ul li:hover {
+    background-color: #ff7f00;
+}
+.banner-wrapper {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+.about-wrapper {
+    margin-top: -100px;
+    background-color: #ffffff;
+    position: relative;
+}
+.service-text-wrapper p {
+    margin-bottom: 15px !important;
+}
+.wpb_text_column ul li {
+    position: relative;
+    padding-left: 20px;
+}
+.wpb_text_column ul li:before {
+    content: "";
+    background-color: #ff7f00;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    top: 10px;
+}
+.wpb_text_column ul {
+    margin-bottom: 20px;
+}
+#cff p {
+    font-size: 14px;
+}
+.latest-news {
+    background-color: #ff7f00;
+    padding: 10px 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.grey-section {
+    background-color: #eeeeee;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.white-section {
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.charcol-section {
+    background-color: #222222;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.service img {
+    max-width: 100%;
+}
+.service .title {
+    background-color: #ff7f00;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.about-section h2 {
+    margin-bottom: 15px;
+}
+.testimonials-wrapper {
+    text-align: center;
+}
+.testimonials-wrapper ul {
+    display: flex;
+}
+.testimonials-wrapper ul li {
+    width: 32%;
+    background-color: #eeeeee;
+    padding: 100px 20px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+}
+.testimonials-wrapper ul li p {
+    font-style: italic;
+}
+.testimonials-wrapper ul li:nth-child(1), .testimonials-wrapper ul li:nth-child(2) {
+    margin-right: 15px;
+}
+.testimonials-wrapper ul li:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 40px;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+.spacer20 {
+    height: 20px !important;
+}
+.charcol-section h2 {
+    margin-bottom: 20px;
+}
+.cta-form {
+    text-align:center;
+}
+.cta-form label {
+    text-align: left;
+    color: #ffffff;
+    display:block;
+    font-weight:400;
+}
+.cta-form p {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.cta-form input[type=text], .cta-form textarea, .cta-form select, .cta-form input[type=email] {
+    width: 100%;
+    padding-left: 12px;
+}
+.cta-form div {
+    margin-bottom: 15px;
+}
+.cta-form textarea {
+    height: 180px;
+}
+.cta-form input[type=text], .cta-form select, .cta-form input[type=email] {
+    height: 34px;
+}
+.form-control {
+    border-radius: 0;
+}
+.wpb_content_element {
+    margin-bottom: 0 !important;
+}
+#footer {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footer a {
+    color: #ffffff;
+}
+.top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 50%;
+    z-index: 98;
+    text-align: center;
+    transition: all 0.25s ease-in-out;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background: #ff7f00;
+    color: #898989;
+    line-height: 35px;
+    opacity: 0;
+    cursor:pointer;
+    border: 1px solid #ffffff;
+}
+.top.show {
+    transition: all 0.25s ease-in-out;
+    opacity: 1;
+}
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .grey-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .white-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .charcol-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main-menu ul li a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-wrapper {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #top-section ul li a {
+        font-size: 14px;
+    }
+    .main-menu ul {
+        justify-content: center;
+    }
+    .main-menu ul li.hm {
+        border-left: 0;
+    }
+    #header .custom-logo-link {
+        width: 45px;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .grey-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .white-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .charcol-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .main-menu ul li a {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .banner-wrapper {
+        height: 300px;
+    }
+    .about-section {
+        width: 60% !important;
+    }
+    .facebook-feed {
+        width: 40% !important;
+    }
+    .wpb_text_column ul li::before {
+        top: 5px;
+    }
+    .latest-news {
+        font-size: 16px;
+    }
+    #cff {
+        height: 900px !important;
+    }
+    .gallery-wrapper .vc_col-sm-4 {
+        width: 50% !important;
+        float: left !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-wrapper {
+        height: 200px;
+    }
+    #top-section ul li.ph {
+        margin: 0;
+    }
+    #top-section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main-menu ul li a {
+        padding: 15px 0;
+    }
+    .main-menu ul li a span {
+        display: none;
+    }
+    .main-menu ul li a::before {
+        top: 20px;
+    }
+    .testimonials-wrapper ul li:nth-child(1), .testimonials-wrapper ul li:nth-child(2) {
+        margin-right: 0;
+    }
+    .testimonials-wrapper ul li {
+        width: 100%;
+        border-bottom: 5px solid #ffffff;
+    }
+    .testimonials-wrapper ul {
+        display: block;
+    }
+    .main-menu ul li a::before {
+        top: 0;
+        position: relative;
+    }
+    .main-menu ul {
+        justify-content: space-around;
+    }
+    .main-menu ul li {
+        width: 100%;
+    }
+    #top-section ul {
+        width: 200px;
+        float: right;
+    }
+    .wpb_text_column ul li {
+        padding-left: 15px;
+    }
+    .wpb_text_column ul li::before {
+        width: 5px;
+        height: 5px;
+        top: 8px;
+    }
+    #footer i {
+        display: none;
+    }
+    #footer .copyright span {
+        display: block;
+    }
+    .about-wrapper {
+        margin-top: 0;
+    }
+}
